@@ -1,7 +1,26 @@
-#include <stdio.h>
+#include <iostream>
+#include <sstream>
+using namespace std;
 
-int main( int argc, char *argv[] )
+int f1;
+
+int main()
 {
-    printf( "Hello, world\n" );
-    return 0;
+//    string str;
+//    cout <<"nhap: ";
+// //    cin >> str;
+//     getline(cin,str);
+//    cout <<"\ntext: "<<str;
+string str = "5521";
+int kq;
+stringstream(str)>>kq;
+cout <<"kq: "<<kq+1;
+
+if(1)
+{
+    cout <<"dung";
+}
+else
+    cout <<"sai";
+   return 0;
 }
